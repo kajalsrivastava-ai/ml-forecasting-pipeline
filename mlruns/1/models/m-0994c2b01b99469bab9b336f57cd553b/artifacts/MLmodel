@@ -1,0 +1,23 @@
+artifact_path: /Users/kajal/Desktop/ml-forecasting-pipeline/mlruns/1/models/m-0994c2b01b99469bab9b336f57cd553b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-0994c2b01b99469bab9b336f57cd553b
+model_size_bytes: 721572
+model_uuid: m-0994c2b01b99469bab9b336f57cd553b
+prompts: null
+run_id: 17852c6cc80744e5ad44ac7dd7fa8c1a
+utc_time_created: '2026-06-13 10:00:22.917796'
